@@ -1,0 +1,86 @@
+body{
+    background-image: url(oo.png);
+    width: 99%;
+    height: 100%;
+}
+/*main ingredient*/
+.div1{
+    width: 250px;
+    height: 250px;
+    background-color:white ;
+    border: solid 1.5px #fdf9f9;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    
+}
+.div2 img{
+    width: 100%;
+    height: 100%;
+padding-right: 20px;
+}
+/*child element*/
+.div2 {
+background: white;
+border: solid 1px #E5E5E5;
+height: 30px;
+width: 200px;
+margin-bottom: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 5px;
+}
+p{
+    font-size: 20px;
+    font-weight: 900;
+    font-style: italic;
+}
+/* picture 4*/
+#df5 {
+width: 35px !important;
+height: 25px !important;
+padding-right: 18px;
+}
+#df51{
+    font-size: 13px;
+    padding-right: 25px;
+    font-weight: 545;
+}
+/* picture 3*/
+#de3{
+    width: 30px !important;
+    height: 20px !important;
+    padding-right: 51px;
+}
+#de31{
+    padding-right: 51px !important;
+}
+/* picture 2*/
+#bn4{
+    width: 30px !important;
+    height: 15px !important;
+}
+#bn41{
+    padding-right: 15px;
+}
+/* picture 1*/
+#gh3{
+    width: 35px;
+    height: 25px;
+    padding-right: 51px;
+}
+#gh31{
+padding-right: 51px;
+}
+.div2:hover{
+border: solid 1.8px #000000;
+cursor: pointer;
+}
+.div1:hover{
+    background-color: #f24;
+}
